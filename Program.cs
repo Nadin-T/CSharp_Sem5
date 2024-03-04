@@ -53,3 +53,50 @@
 // string str = "Hello WOrlD";
 // string str1 = GetLowersLetters (str);
 // Console.Write (str1);
+
+
+//Задача 3: Задайте произвольную строку. 
+//Выясните, является ли она палиндромом.
+
+// Преобразовываем строку в массив символов
+
+//Определяем, является ли строка полиндромом
+
+// char[] GetArrayFromStringChars(string str)
+// {
+//     char [] chars = new char [str.Length];
+//     for (int i = 0; i < str.Length; i++)
+//     {
+//         chars[i] = str[i];
+//     }
+//     return chars;
+// }
+
+// bool CheckIsPolindrom (char [] chars)
+// {
+//     bool flag = true;
+//     for (int i = 0; i < chars.Length/2; i++)
+//     {
+//         if (chars[i] == chars[chars.Length-1-i])
+//         {
+//             flag = true;
+//         }
+//         else
+//         {
+//             flag = false;
+//             break;
+//         }
+//     }
+//     return flag;
+// }
+
+// string str = "кошка";
+// char [] chars = GetArrayFromStringChars (str);
+// if (CheckIsPolindrom (chars) == true)
+// {
+//     Console.Write("Да");
+// }
+// else
+// {
+//     Console.Write("Нет");
+// }
